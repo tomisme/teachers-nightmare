@@ -1,0 +1,3 @@
+{:main bts.dev
+ :devcards true
+ :preloads [devtools.preload devcards.core]}
