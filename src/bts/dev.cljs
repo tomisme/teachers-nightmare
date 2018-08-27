@@ -6,5 +6,10 @@
    [devcards.core]))
 
 
-(defcard-rg app [game/app-component])
+(defcard-rg app
+  [game/app-component]
+  {}
+  {:frame false})
+
+
 (start-devcard-ui!)
